@@ -1,6 +1,7 @@
 body{
     background-color:khaki;
     margin: 60px;
+    margin-top: 40px;
 }
 div.main_container {
     text-align: center;
@@ -11,7 +12,7 @@ div.main_container {
     text-align: center;
 }
 
-div.navbar{
+.navbar{
     text-align: center;
 }
 
@@ -34,11 +35,20 @@ button.category_button{
     text-align: center;
 }
 
-.category{
+.product{
     text-align: center;
+    display: block;
+    margin: 60px;
 }
 
+.product_contaier{
+    padding-top: 20px;
+}
 
+img {
+    width:500 ;
+    height:600 ;
+}
 @media only screen and (max-width: 600px) {
 
     body{
