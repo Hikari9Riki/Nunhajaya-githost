@@ -1,0 +1,79 @@
+body{
+    background-color:khaki;
+    margin: 60px;
+}
+div.main_container {
+    text-align: center;
+    background-color: bisque;
+}
+
+.main_title {
+    text-align: center;
+}
+
+div.navbar{
+    text-align: center;
+}
+
+button.navbar{
+    text-align: center;
+}
+.product_menu{
+    text-align: center;
+}
+
+.product_category{
+    text-align: center;
+}
+
+.category_box{
+    text-align: center;
+}
+
+button.category_button{
+    text-align: center;
+}
+
+.category{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color:khaki;
+        margin: 60px;
+    }
+    .main_title {
+        text-align: center;
+    }
+
+    div.navbar{
+        text-align: center;
+    }
+
+    button.navbar{
+        text-align: center;
+    }
+
+    .product_menu{
+        text-align: center;
+    }
+
+    .product_category{
+        text-align: center;
+    }
+
+    .category_box{
+        text-align: center;
+    }
+
+    button.category_button{
+        text-align: center;
+    }
+
+    .category{
+        text-align: center;
+    }
+}
