@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Balokun';
+    src: url(/Media/font/balonku-font/BalonkuRegular-la1w.otf);
+ }
+ 
+ @font-face {
+     font-family: 'Weirdo';
+     src: url(/Media/font/Weirdo.ttf);
+  }
+ 
+ body{
+     background-color:black;
+     margin-left: 60px;
+     margin-right: 60px;
+     margin-top: 20px;
+ }
+ div.main_container {
+     text-align: center;
+     background-color: grey;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ 
+ .main_title {
+     text-align: center;
+     font-size: 100px;
+ }
+ 
+ h1.main_title{
+     text-align: center;
+ }
+ .navbar{
+     text-align: center;
+ }
+ 
+ button.navbar{
+     text-align: center;
+ }
+ 
+ .homepage {
+     display: block;
+ }
+ 
+ .product_menu{
+     text-align: center;
+     display: none;
+ }
+ 
+ .orderpage {
+     display: none;
+ }
+ 
+ .product_category{
+     text-align: center;
+     flex-basis: 100%;
+     height: 100px;
+ }
+ 
+ .category_box{
+     text-align: center;
+     flex-basis: 100%;
+     height: 100px;
+ 
+ }
+ 
+ button.category_button{
+     text-align: center;
+ }
+ 
+ .product{
+     text-align: center;
+     display: block;
+     margin: 60px;
+ }
+ 
+ .product_contaier{
+     padding-top: 20px;
+     text-align: center;
+ }
+ 
+ img {
+     width:500 ;
+     height:600 ;
+ }
+ 
+ h2.product_name {
+     font-family: 'Balokun';
+     text-align: center;
+ }
+ 
+ button.nav-link {
+     font-size: 30px;
+     background-color:grey;
+     color: whitesmoke;
+ }
+ 
+ nav-link.active{
+     background-color: aqua;
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 
+     body{
+         background-color:black;
+         margin: 60px;
+     }
+     .main_title {
+         text-align: center;
+     }
+ 
+     h1.main_title{
+         text-align: center;
+         font-size: 100;
+     }
+ 
+     div.navbar{
+         text-align: center;
+     }
+ 
+     button.navbar{
+         text-align: center;
+     }
+ 
+     .product_menu{
+         text-align: center;
+     }
+ 
+     .product_category{
+         text-align: center;
+         flex-basis: 33%;
+     }
+ 
+     .category_box{
+         text-align: center;
+         flex-basis: 33%;
+     }
+ 
+     button.category_button{
+         text-align: center;
+     }
+ 
+     .category{
+         text-align: center;
+     }
+ }

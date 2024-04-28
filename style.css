@@ -10,8 +10,9 @@
 
 body{
     background-color:khaki;
-    margin: 60px;
-    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
 }
 div.main_container {
     text-align: center;
@@ -23,7 +24,7 @@ div.main_container {
 
 .main_title {
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 h1.main_title{
@@ -86,6 +87,16 @@ img {
 h2.product_name {
     font-family: 'Balokun';
     text-align: center;
+}
+
+button.nav-link {
+    font-size: 30px;
+    background-color:grey;
+    color: whitesmoke;
+}
+
+nav-link.active{
+    background-color: aqua;
 }
 @media screen and (max-width: 600px) {
 
