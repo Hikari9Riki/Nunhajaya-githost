@@ -27,7 +27,7 @@ div.main_container {
 
 h1.main_title{
     text-align: center;
-    font-size: x-small;
+    font-size:large;
 }
 .navbar{
     text-align: center;
@@ -99,7 +99,7 @@ h2.product_name {
 
     h1.main_title{
         text-align: center;
-        font-size: xx-large;
+        font-size:xx-large;
     }
 
     div.navbar{
