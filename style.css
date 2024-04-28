@@ -98,11 +98,11 @@ button.nav-link {
 nav-link.active{
     background-color: aqua;
 }
+
 @media screen and (max-width: 600px) {
 
     body{
-        background-color:black;
-        margin: 60px;
+        margin: 10px;
     }
     .main_title {
         text-align: center;
@@ -110,7 +110,7 @@ nav-link.active{
 
     h1.main_title{
         text-align: center;
-        font-size: 100;
+        font-size: 60px;
     }
 
     div.navbar{
@@ -142,4 +142,9 @@ nav-link.active{
     .category{
         text-align: center;
     }
+
+    button.nav-link {
+        font-size:15px;
+    }
 }
+
