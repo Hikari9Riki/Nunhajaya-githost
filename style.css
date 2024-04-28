@@ -150,5 +150,10 @@ nav-link.active{
     button.btn{
         font-size: 5px;
     }
+
+    img {
+        width: 300 ;
+        height: 360 ;
+    }
 }
 
