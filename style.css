@@ -1,3 +1,13 @@
+@font-face {
+   font-family: 'Balokun';
+   src: url(/Media/font/balonku-font/BalonkuRegular-la1w.otf);
+}
+
+@font-face {
+    font-family: 'Weirdo';
+    src: url(/Media/font/Weirdo.ttf);
+ }
+
 body{
     background-color:khaki;
     margin: 60px;
@@ -58,6 +68,10 @@ button.category_button{
 img {
     width:500 ;
     height:600 ;
+}
+
+h2.product_name {
+    font-family: 'Balokun';
 }
 @media only screen and (max-width: 600px) {
 
