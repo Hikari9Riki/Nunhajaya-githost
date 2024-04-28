@@ -12,20 +12,22 @@
             <h1 style="text-align: center;" >Nunhajaya</h1>                                         <!-- navbar -->
         </div>
         <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li id="nav1" class="nav-item">
+                <button class="nav-link active" aria-current="page" onclick="setActiveTab(1);viewPage(1);">Home</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Catalog</a>
+            <li id="nav2" class="nav-item">
+                <button class="nav-link "  onclick="setActiveTab(2);viewPage(2);">Catalog</button>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Order</a>
+            <li id="nav3" class="nav-item">
+                <button class="nav-link "  onclick="setActiveTab(3);viewPage(3);">Order</button>
             </li>
-          </ul>
+        </ul>
         <div class="main_container">                                      <!-- main container -->
+            <div id="page1" class="homepage">
+                <h3>Here is a little introduction about our shop</h3>
+            </div>
             
-            
-            <div class="product_menu">                                    <!-- product menu -->
+            <div id="page2" class="product_menu">                                    <!-- product menu -->
                 <div class=" product_category">                           <!-- product category -->
                     <div class="category_box">
                         <button style="margin-top: 30px ;" onclick="myAll()" class="btn btn-outline-dark">All</button>
@@ -127,6 +129,10 @@
                         </div>
                         </div>
                     </div>
+            </div>
+
+            <div id="page3" class="orderpage">
+                <h3>Please order here</h3>
             </div>
         </div>
     </body>

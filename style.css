@@ -19,8 +19,18 @@ div.main_container {
 button.navbar{
     text-align: center;
 }
+
+.homepage {
+    display: block;
+}
+
 .product_menu{
     text-align: center;
+    display: none;
+}
+
+.orderpage {
+    display: none;
 }
 
 .product_category{
