@@ -25,6 +25,10 @@ div.main_container {
     text-align: center;
 }
 
+h1.main_title{
+    text-align: center;
+    font-size: x-small;
+}
 .navbar{
     text-align: center;
 }
@@ -71,6 +75,7 @@ button.category_button{
 
 .product_contaier{
     padding-top: 20px;
+    text-align: center;
 }
 
 img {
@@ -80,15 +85,21 @@ img {
 
 h2.product_name {
     font-family: 'Balokun';
+    text-align: center;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     body{
-        background-color:khaki;
+        background-color:black;
         margin: 60px;
     }
     .main_title {
         text-align: center;
+    }
+
+    h1.main_title{
+        text-align: center;
+        font-size: xx-large;
     }
 
     div.navbar{
