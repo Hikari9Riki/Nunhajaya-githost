@@ -47,7 +47,11 @@ button.navbar{
     display: none;
 }
 
-.orderpage {
+.lastpage{
+    display: none;
+}
+
+.lastpage{
     display: none;
 }
 

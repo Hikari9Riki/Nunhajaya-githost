@@ -61,6 +61,7 @@ function viewPage(pageId){
     }
 }
 
+
 // Add event listeners to your nav items to handle clicks
 document.getElementById("nav1").addEventListener("click", () => setActiveTab("nav1"));
 document.getElementById("nav2").addEventListener("click", () => setActiveTab("nav2"));
