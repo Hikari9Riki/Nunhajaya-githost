@@ -60,10 +60,3 @@ function viewPage(pageId){
         selectedPage.style.display = "block";
     }
 }
-
-
-// Add event listeners to your nav items to handle clicks
-document.getElementById("nav1").addEventListener("click", () => setActiveTab("nav1"));
-document.getElementById("nav2").addEventListener("click", () => setActiveTab("nav2"));
-document.getElementById("nav3").addEventListener("click", () => setActiveTab("nav3"));
-
